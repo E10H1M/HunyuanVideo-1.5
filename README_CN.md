@@ -312,6 +312,16 @@ GSB（Good/Same/Bad）评估法被广泛用于基于整体视频感知质量来�
 <img src="./assets/I2V_GSB.png" alt="gsb result of i2v" width="800">
 </div> 
 
+### 推理速度
+我们在8块H800 GPU上启用了基础工程级加速技术，报告推理速度，以展示在实际部署场景中可实现的实用性能。
+请注意，在本实验中，我们不以牺牲生成质量为代价追求最极端的加速，而是在保持几乎相同的输出质量的同时实现显著的速度提升。
+
+我们在下方报告了HunyuanVideo 1.5在50个扩散步数下的总推理时间：
+
+<div align="center">
+<img src="./assets/speed.png" alt="" width="100%">
+</div> 
+
 
 ## 📚 引用
 ```bibtex

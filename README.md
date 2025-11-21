@@ -310,6 +310,17 @@ The GSB(Good/Same/Bad) approach is widely used to evaluate the relative performa
 </div> 
 
 
+### Inference speed
+We report inference speed with basic engineering-level acceleration techniques enabled on 8 H800 GPUs to demonstrate practical performance achievable in real-world deployment scenarios.
+Please note that in this experiment, we do not pursue the most extreme acceleration at the cost of generation quality, but rather to achieve notable speed improvements while maintaining nearly identical output quality.
+
+We report the total inference time for 50 diffusion steps for HunyuanVideo 1.5 below:
+
+<div align="center">
+<img src="./assets/speed.png" alt="" width="100%">
+</div> 
+
+
 ## 📚 Citation
 
 ```bibtex
